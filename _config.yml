@@ -100,7 +100,7 @@ pinterest-share: True
 pocket-share: True
 vkontakte-share: True
 
-#disqus-shortname: "id-disqus"
+disqus-shortname: "id-disqus"
 
 syntax-highlight: True
 
@@ -124,7 +124,7 @@ timeline-img: "/img/timeline/default.png"
 # Contact #
 ###########
 
-email: "your@email.here"
+email: "livro-pangeia@gmail.com"
 
 ################
 # Author Blurb #
