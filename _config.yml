@@ -170,10 +170,10 @@ err-404-img: "/img/labtocat.png"
 # Sections shown in the index page
 
 pages_list:
-  About: 'Sobre o livro'
+  About: 'about'
   Blog: 'latest-post'
-  Timeline: 'agenda'
-  Contact: 'contacto'
+  Timeline: 'timeline'
+  Contact: 'contact'
 
 # Exclusion list from the generated _site
 
