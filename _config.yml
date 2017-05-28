@@ -27,10 +27,10 @@ force-https: True
 #############
 
 lang: "pt-br"
-author: "John Smith"
-title: "{ Livro Pangeia }"
-description: "."
-keywords: "pangeia, livro, sirios, luiza aguiar, gabrielle albiero"
+author: "Luiza Aguiar e Gabrielle Albiero"
+title: "Livro Pangeia"
+description: "Fragmentos da Guerra da Síria no Brasil."
+keywords: "pangeia, livro, fragmentos, Guerra, Siria, luiza+aguiar, gabrielle+albiero"
 favicon: "/img/favicon.ico"
 
 ################
@@ -49,12 +49,12 @@ dynamic-typing: True
 shuffle: True # Shuffle the lines.
 loop: True
 loop-count: False # Set False for infinite loop, or set any number for finite loop.
-type-speed: 10
-start-delay: 200
+type-speed: 100
+start-delay: 1000 #200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
   - text: "Fragmentos da Guerra da Síria no Brasil."
-  - text: "Outro texto?"
+  - text: "Posivel texto de orientado a fazer a compra do livro"
 
 me-img: "/img/jetpacktocat.png"
 
@@ -159,9 +159,9 @@ err-404-img: "/img/labtocat.png"
 # GPG on Keybase #
 ##################
 
-keybase-username: pablerashow
-keybase-in-social: True
-keybase-in-footer: True
+#keybase-username: user-name
+#keybase-in-social: True
+#keybase-in-footer: True
 
 ################################################################################
 
@@ -170,10 +170,10 @@ keybase-in-footer: True
 # Sections shown in the index page
 
 pages_list:
-  About: 'about'
+  About: 'Sobre o livro'
   Blog: 'latest-post'
-  Timeline: 'timeline'
-  Contact: 'contact'
+  Timeline: 'agenda'
+  Contact: 'contacto'
 
 # Exclusion list from the generated _site
 
